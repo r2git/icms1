@@ -14,7 +14,7 @@
 header('Content-Type: text/html; charset=utf-8');
 Error_Reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
 
-session_start();
+session_start(); // 1111
 
 define('PATH', dirname(__FILE__));
 define("VALID_CMS", 1);
