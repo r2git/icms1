@@ -13,7 +13,7 @@
 
 Error_Reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
 
-$a = 123;
+$a = 600;
 
 header('Content-Type: text/html; charset=utf-8');
 header('X-Powered-By: InstantCMS');
