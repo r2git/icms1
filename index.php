@@ -13,6 +13,8 @@
 
 Error_Reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
 
+$a = 123;
+
 header('Content-Type: text/html; charset=utf-8');
 header('X-Powered-By: InstantCMS');
 define('PATH', dirname(__FILE__));
