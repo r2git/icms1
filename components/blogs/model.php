@@ -20,26 +20,7 @@ class cms_model_blogs{
 
 /* ========================================================================== */
 
-    public static function getDefaultConfig() {
 
-        return array (
-			  'perpage' => 10,
-			  'perpage_blog' => 15,
-			  'update_date' => 0,
-			  'update_seo_link' => 0,
-			  'min_karma_private' => 0,
-			  'min_karma_public' => 5,
-			  'min_karma' => 1,
-			  'list_min_rating' => 0,
-			  'watermark' => 1,
-			  'img_on' => 1,
-              'meta_keys' => '',
-              'meta_desc' => '',
-              'seo_user_access' => 0,
-			  'update_seo_link_blog' => 0
-			);
-
-    }
 
 /* ========================================================================== */
    //
