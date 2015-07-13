@@ -26,6 +26,8 @@ if (!file_exists(PATH.'/includes/config.inc.php')){
 
 session_start();
 
+$b = 344;
+
 require(PATH.'/core/cms.php');
 $inCore = cmsCore::getInstance();
 
